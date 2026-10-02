@@ -289,6 +289,9 @@ nav {
     margin: 0;
     margin-left: 1%;
 }
+.linha_tmobile {
+    display: none;
+}
 
 .cardss1 {
     height: 60vh;

@@ -9,16 +9,20 @@ html, body {
 header {
     height: 10vh;
     width: 100vw;
-    background-color: rgb(38, 108, 240);
+    background-color: rgb(240, 242, 246);
 }
 .superior {
-    border-radius: 15px;
     color: white;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: black;
+}
+.superior img {
+    height: 100%;
+    width: 6%;
 }
 .superior h1 {
     margin: 0;
@@ -27,81 +31,179 @@ header {
     align-items: center;
     justify-content: center;
 }
-
-main {
-    height: 90vh;
-    width: 100%;
+.ainima {
+    animation-name: ap;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    opacity: 0;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    color: #003a64;
+    font-size:400% ;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+@keyframes ap {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.titulo2 {
+font-size: 200%;
+background-color: rgb(255, 254, 254);
+border-radius: 0 0 10px 10px;
+color: #555555;
+margin: 0;
+padding: 0;
 }
 .cursos {
     display: flex;
-    justify-content: start;
-    height: 30vh;
-    border: solid 4px;
+    flex-direction: row;
+    margin-top: 10px;
+    height: 35vh;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
 }
 .meio1 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 10px;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    margin: 30px;
-    padding: 20px;
-    background-image: url(ia-generativa.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    border-radius: 15px;
+    background-color: rgb(246, 246, 246);
     color: white;
+    margin: 0;
+    padding: 0;
     height:100%;
+    margin-left: 10px;
     width: 20%;
-    border: solid 9px blue;
+    border: solid 2px rgb(0, 170, 255);
+    overflow: hidden;
 }
-.meio2 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 10px;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    margin: 30px;
-    padding: 20px;
-    background-image: url(IAroxa.png);
+.fundo1 {
+    width: 100%;
+    position: relative;
+    border-bottom: solid 2px black;
+    margin-bottom: 3px;
+    background-image: url(iniciante.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
-    height: 100%;
-    width: 20%;
-    border: solid 9px blueviolet;
 }
-.meio3 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 10px;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    margin: 30px;
-    padding: 20px;
-    background-image: url(IAvermelha.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    height: 100%;
-    width: 20%;
-    border: solid 9px red;
+.meio1 p {
+    padding-bottom: 100px;
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 35px;
 }
 
+.meio1 a {
+    margin-bottom:7px;
+    margin-left: 5px;
+    border-bottom: solid 5px black;
+}
 .meio1 h2 {
     justify-content: flex-start;
     align-items: flex-start;
     margin: 0;
     opacity: 1;
+    color: black;
+    margin-left: 5px;
+}
+.meio2 {
+    border-radius: 15px;
+    color: white;
+    margin: 0;
+    height:100%;
+    width: 20%;
+    border: solid 2px blueviolet;
+    overflow: hidden;
+}
+.fundo2 {
+    background-color: rgb(123, 0, 255);
+    width: 100%;
+    position: relative;
+    border-bottom: solid 2px black;
+    margin-bottom: 3px;
+    background-image: url(intermediario.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.meio2 p {
+    padding-bottom: 100px;
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 35px;
+    color: black;
+}
+.meio2 a {
+    margin-bottom:7px;
+    margin-left: 5px;
+    border-bottom: solid 5px black;
+}
+.meio2 h2 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    opacity: 1;
+    color: black;
+    margin-left: 5px;
+}
+
+.meio3 {
+    border-radius: 15px;
+    color: white;
+    margin: 0;
+    height:100%;
+    width: 20%;
+    border: solid 2px red;
+    overflow: hidden;
+}
+.fundo3 {
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    position: relative;
+    border-bottom: solid 2px black;
+    margin-bottom: 3px;
+    background-image: url(profissional.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.meio3 p {
+    padding-bottom: 100px;
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 35px;
+    color: black;
+}
+.meio3 a {
+    margin-bottom:7px;
+    margin-left: 5px;
+    border-bottom: solid 5px black;
+}
+.meio3 h2 {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    opacity: 1;
+    color: black;
+    margin-left: 5px;
 }
 
 .meio1 img {
-    width: 20%;
     margin: 5px;
     display: flex;
     justify-content: flex-start;
@@ -125,17 +227,6 @@ main {
     }
 }
 
-.meio1 p {
-    font-size: x-large;
-    margin-bottom: 5px;
-    opacity: 1;
-}
-.meio2 h2 {
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 0;
-    opacity: 1;
-}
 
 .meio2 img {
     width: 20%;
@@ -161,17 +252,6 @@ main {
     }
 }
 
-.meio2 p {
-    font-size: x-large;
-    margin-bottom: 5px;
-    opacity: 1;
-}
-.meio3 h2 {
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 0;
-    opacity: 1;
-}
 
 .meio3 img {
     width: 20%;
@@ -197,18 +277,13 @@ main {
     }
 }
 
-.meio3 p {
-    font-size: x-large;
-    margin-bottom: 5px;
-    opacity: 1;
-}
 
 .botao-download {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: flex-end;
-    text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: center;
   display: block;
   width: fit-content;
   padding: 12px 24px;
@@ -227,10 +302,10 @@ main {
 
 }
 
-.meio-bloqueado {
+.meio-bloqueado a {
     position: relative;
     opacity: 0.4 !important; 
-    filter: grayscale(1) !important; 
+    filter: grayscale(1) !important;
     pointer-events: none; 
     cursor: not-allowed;
 }
