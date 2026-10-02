@@ -35,7 +35,6 @@ main {
 .cursos {
     display: flex;
     justify-content: start;
-    border: solid 4px;
     height: 30vh;
     
 }
