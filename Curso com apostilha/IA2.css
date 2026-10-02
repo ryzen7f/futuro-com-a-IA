@@ -36,6 +36,7 @@ main {
     display: flex;
     justify-content: start;
     height: 30vh;
+    border: solid 4px;
 }
 .meio1 {
     display: flex;
