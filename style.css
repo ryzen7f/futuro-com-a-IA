@@ -762,6 +762,9 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
+        background-color: black;
+        position: absolute;
+        margin-top: 85px;
     }
 
     nav.ativo .botoes-usuario {
@@ -771,19 +774,24 @@ footer {
         height: 100%;
         width: 100%;
         margin-top: 100px;
+          background-color: black;
+          position: relative;
     }
 
     .nav.ativo .botões {
         display: flex;
         flex-direction: column;
+        align-items: center;
         height: 100%;
         width: 100%;
+        background-color: black;
     }
     nav.ativo a {
         gap: 10px;
         display: flex;
         flex-direction: column;
         margin-top: 10px;
+        border-radius: 10px;
     }
 
     .usuario {
