@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.addEventListener("load", () => {
+
+    const animacao = document.querySelector(".ia-animation");
+
+    setTimeout(() => {
+        animacao.classList.add("animar");
+    }, 300);
+
+    setTimeout(() => {
+        animacao.classList.add("finalizar");
+    }, 700);
+
+});
+    </script>
+    <style>
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 50px 8%;
+    box-sizing: border-box;
+
+    overflow: hidden;
+}
+
+
+.hero-text {
+    width: 45%;
+    z-index: 10;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    color: #1657c8;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.hero-text button {
+    margin-top: 25px;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 25px;
+    background: #174dcc;
+    color: white;
+    cursor: pointer;
+}
+
+.ia-animation {
+    position: relative;
+    width: 500px;
+    height: 400px;
+}
+
+.retangulo {
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    background: #17629a;
+
+    clip-path: polygon(
+        15% 0%,
+        100% 0%,
+        85% 100%,
+        0% 100%
+    );
+
+    opacity: 0;
+
+    transition:
+        transform 1.5s cubic-bezier(.22,.61,.36,1),
+        opacity 0.8s ease;
+}
+
+.retangulo-1 {
+    top: 80px;
+    left: 100px;
+    transform: translate(-180px, -100px);
+}
+
+.retangulo-2 {
+    top: 110px;
+    left: 70px;
+    transform: translate(180px, 120px);
+}
+
+.ia-animation.animar .retangulo {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.homem-ia {
+    position: absolute;
+    width: 390px;
+    top: 40px;
+    left: 55px;
+    z-index: 5;
+
+    opacity: 0;
+    transform: scale(0.95);
+
+    transition:
+        opacity 1.0s ease,
+        transform 0.5s ease;
+}
+
+.ia-animation.finalizar .homem-ia {
+    opacity: 1;
+    transform: scale(1);
+}
+    </style>
+</head>
+<body>
+    <section class="hero">
+
+    <div class="hero-text">
+        <h1>Futuro com a<br>IA</h1>
+
+        <p>
+            Domine a Inteligência Artificial e transforme
+            suas ideias em resultados.
+        </p>
+
+        <button>
+            Clique aqui para participar →
+        </button>
+    </div>
+
+    <div class="ia-animation">
+
+        <div class="retangulo retangulo-1"></div>
+        <div class="retangulo retangulo-2"></div>
+
+        <img
+            src="capa3.png"
+            class="homem-ia"
+            alt="Inteligência Artificial"
+        >
+
+    </div>
+
+</section>
+</body>
+</html>

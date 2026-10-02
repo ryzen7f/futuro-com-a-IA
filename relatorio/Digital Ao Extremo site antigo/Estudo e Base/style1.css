@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #2F2315;
+}
+
+header {
+    background-color: #2F2315;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    border: solid #D18733;
+}
+
+header h1 {
+    color: rgb(8, 69, 191);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.nav-bar {
+    height: 10vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-items {
+    text-decoration: none;
+    background-color: #137BD6;
+    color: black;
+    border-radius: 6px;
+    padding: 15px 20px 15px 20px;
+}
+.nav-items:hover {
+    background:#3092D5;
+    transform: scale(1.1);
+}
+
+.sessões {
+    height: 90vh;
+    background-color: #5C3710;
+    margin: 10px 10px;
+    border: solid 1px #D18733;
+    scroll-margin-top:100px;
+}
+
+.sessões h1, .sessões p {
+    color: white;
+    font-weight: bold;
+}
+
+.titulo1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.paragraf1 {
+    text-align: center;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0 5px;
+}
+
+.cards {
+    border: solid 1px rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+    height: 500px;
+    width: 360px;
+    background-color: #5C3710;
+    color: black;
+}
+.cards:hover {
+    transform: scale(1.01);
+}
+
+.cards p {
+    color: white;
+    text-align: center;
+}
+
+.cards .img-invenção {
+    margin: 5px 14px 0 14px;
+    border-radius: 5px;
+}
+
+.img-invenção {
+    height: 300px;
+    width: 340px;
+}

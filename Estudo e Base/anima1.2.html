@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ia-animation {
+    position: relative;
+    width: 600px;
+    height: 500px;
+}
+
+
+/* RETÂNGULOS */
+
+.retangulo {
+    position: absolute;
+
+    width: 380px;
+    height: 320px;
+
+    background: #17629a;
+
+    clip-path: polygon(
+        15% 0%,
+        100% 0%,
+        85% 100%,
+        0% 100%
+    );
+
+    opacity: 0;
+}
+
+
+/* RETÂNGULO 1 */
+
+.retangulo-1 {
+    animation: entrar1 1.5s ease forwards;
+}
+
+@keyframes entrar1 {
+
+    0% {
+        opacity: 0;
+        left: -100px;
+        top: -20px;
+    }
+
+    100% {
+        opacity: 1;
+        left: 100px;
+        top: 80px;
+    }
+}
+
+
+/* RETÂNGULO 2 */
+
+.retangulo-2 {
+    animation: entrar2 1.5s ease forwards;
+}
+
+@keyframes entrar2 {
+
+    0% {
+        opacity: 0;
+        left: 350px;
+        top: 250px;
+    }
+
+    100% {
+        opacity: 1;
+        left: 70px;
+        top: 110px;
+    }
+}
+
+
+/* HOMEM */
+
+.homem-ia {
+    position: absolute;
+
+    width: 500px;
+    top: 20px;
+    left: 50px;
+
+    opacity: 0;
+
+    animation: aparecer-homem 1.0s ease 1.5s forwards;
+}
+
+
+@keyframes aparecer-homem {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="ia-animation">
+
+    <div class="retangulo retangulo-1"></div>
+    <div class="retangulo retangulo-2"></div>
+
+    <img src="capa3.png" class="homem-ia">
+
+</div>
+
+</body>
+</html>

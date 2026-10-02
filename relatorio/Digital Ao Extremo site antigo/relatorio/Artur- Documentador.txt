@@ -1,0 +1,47 @@
+No dia 03/08, realizamos a formação do grupo e iniciamos o planejamento do trabalho. Durante a reunião, discutimos diversas ideias e propostas para definir a melhor abordagem do projeto. Após um debate colaborativo, chegamos a um consenso sobre o tema e os principais objetivos. Em seguida, organizamos a divisão de tarefas, definindo os papéis e as responsabilidades de cada integrante de acordo com suas habilidades e disponibilidade. Essa etapa foi importante para garantir uma boa organização, facilitar a comunicação entre os membros e estabelecer um planejamento eficiente para as próximas atividades do projeto.
+
+Após a divisão das tarefas, Davi iniciou os primeiros testes dos códigos e da parte técnica do sistema, verificando seu funcionamento e identificando possíveis melhorias. Enquanto isso, Jheyson ficou responsável pela identidade visual do projeto, desenvolvendo o design e definindo o nome do curso, buscando criar uma proposta atrativa e alinhada ao público-alvo. Essa etapa foi fundamental para estabelecer uma base sólida para o andamento das próximas atividades.
+
+Relatório individual de Davi Pereira
+
+No dia 05/08, das 22:00 da noite até as 5:00 da manhã do dia 06/08/2026, foi finalizando as páginas que faltavam e adicionando o fundo a elas. Neste momento, utilizei a IA para poder tirar os textos que estavam no fundo que o designer me enviou, mas mantendo as figuras de engrenagens e etc. No fundo estava dando tudo certo, as imagens estavam certas, sem nenhum texto, mas infelizmente, na última imagem, acabou meu limite de geração de imagem. Então, terei que esperar 24 horas ou pedir para um colega fazer o fundo sem texto com a IA.
+
+PROMPT USADO: preciso de sua ajuda, eu estou criando um site com meus amigos, mas eu não consigo fazer o fundo das páginas porque tem gradiente e também tem símbolos de engrenagem e livros e etc. e seria muito difícil ficar pegando esses ícones e colocando eles nos locais certos no fundo sem interferir com o texto. Então, preciso que me ajude. Queria que você me gerasse imagens de fundo que eu vou te mandar, sem o texto, mas com as imagens no fundo, só o fundo com o símbolo de engrenagem e etc. nos cantos, exatamente igual à imagem, só que sem texto.
+
+Aprendi também o comando CTRL + H, que permite substituir partes do código que são iguais, mudando apenas uma vez.
+
+A IA também foi usada para identificar o porquê de o input rádio estar marcando mais de uma opção e era por causa de um nome errado. Também foi usada para descobrir que se colocou-se o input dentro do label, visualização IA fica do jeito que estava no design.
+
+Depois, ao final da madrugada, usei a IA para encontrar bugs e percebi que escrevi a classe comprar maiúsculo e no CSS minúsculo e descobri que, se as opções de checkbox que o usuário não digita nada não tiverem valor, o navegador não sabe o que é aquela informação e elas não são enviadas para a página quando o botão de confirmar é clicado e assim dando erro, já que a página não é resetada.
+
+PROMPT 2: Repita o processo deixando somente as engrenagens no canto inferior direito.
+
+Desenvolvimento e Andamento do Projeto
+
+No dia 11/08, foi realizada uma atualização sobre o desenvolvimento do projeto, constatando que as versões Mobile e PC estão aproximadamente 95% concluídas. Neste momento, restam apenas alguns ajustes finais para que o projeto seja finalizado.
+
+Entre as pendências, estão o envio de duas imagens que ainda precisam ser adicionadas ao projeto. Após o recebimento dessas imagens, será realizada uma verificação geral para identificar possíveis erros e, posteriormente, serão feitos os últimos ajustes necessários.
+
+Também foi informado que a versão Mobile recebeu uma barra de navegação desenvolvida utilizando JavaScript. Essa implementação adicionou uma funcionalidade interativa ao projeto e, dessa forma, atende aos requisitos relacionados ao uso de JavaScript definidos para o trabalho.
+
+Com essas etapas concluídas, o projeto estará próximo de sua versão final, restando apenas a revisão e os ajustes necessários para garantir que todas as funcionalidades estejam funcionando corretamente tanto no computador quanto em dispositivos móveis.
+
+No dia 11/08 Davi finalizou o site.
+
+Início da Estrutura do Site
+
+No dia 14/08, Leonardo iniciou o desenvolvimento de algumas partes iniciais do projeto, começando pela criação da base do site que será utilizada no curso. Essa etapa é importante para estabelecer a estrutura principal da plataforma e servir de base para a implementação dos demais conteúdos e funcionalidades do curso.
+
+O trabalho continuará a partir dessa estrutura inicial, com a adição dos conteúdos, recursos e ajustes necessários para que o site fique completo e funcional.
+
+Alguns erros achados
+
+Erro 1: as bordas do botão "invenções" não funcionam, fica azul mas não funciona.
+
+Erro 2: o botão de confirmar está escrito "comfirmar".
+
+Erro 3: tem uma borda branca fina na lateral do site.
+
+Sugestão: no final, é bom colocar e-mail profissional, telefone/WhatsApp para atendimento ao cliente, e Instagram.
+
+Leonardo continuou a construção do site do curso, adicionando os códigos restantes de HTML e CSS por meio do VS Code. Também realizou a inserção de imagens e descrições, além da implementação de um botão responsável por redirecionar o usuário para o próximo site, que ainda está em desenvolvimento.

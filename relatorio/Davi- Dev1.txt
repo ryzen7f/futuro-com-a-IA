@@ -1,0 +1,23 @@
+No primeiro Dia 03/08/2026 eu e meus colegas formamos o grupo e escolhemos o tema e a noite comecei a estudar e fazer um site para treinar
+
+no segundo dia 04/08/2026 com o design ja pronto começei a fazer o site e deixei uma base pronta para terminar depois pois fiquei ate 05/082026 pela madrugada ja que estava fazendo outro trabalho academico para o CEEP
+
+No dia 05/08 das 22:00 da noite ate as 5:00 da manhã do dia 06/08/2026 fui finalizando as páginas que faltavam e adicionando o fundo a elas neste momento utilizei a IA para poder tirar os textos que estavam no fundo que o designer me enviou mas mantendo as figuras de engrenagens e etc no fundo estava dando tudo certo as imagens estavam certas sem nenhum texto mas infelizmente na última imagem acabou meu limite de geração de imagem então terei que esperar 24 horas ou pedir para um colega fazer o fundo sem texto com a IA
+PROMPT USADO: preciso de sua ajuda eu estou criando um site com meus amigos mas eu não consigo fazer o fundo das paginas porque tem gradiente e tambem tem simbolos de engrenagem e livros e etc e seria muito dificil fica pegando esses icones e colocando eles nos locais certos no fundo sem interferir com o texto então preciso que me ajude queria que voce me gera-se a imagens de fundo que eu vou le mandar sem o texto e sem as imagem so o fundo com o simbolo de engrenagem e etc nos cantos exatamente igual a imagem so que sem texto.
+Aprendi também o comando CTRL + H que permite substituir partes do código que são iguais mudando apenas uma vez.
+A IA também foi usada para identificar o porque o input rádio estava marcando mais de uma opção e era por causa de um nome errado e também foi usada para descobrir que se coloca-se o input dentro do label a visualização IA ficar do jeito que estava no design.
+Depois ao final da madrugada usei a IA para encontrar bugs e percebi que escrevi a classe comprar maiusculo e no css minúsculo e descobri que se as opções de checkbox  que o usuário não digita nada não tiverem value o navegador não sabe o que é aquela informação e elas não são enviadas para a página quando o botão de confirmar é clicado e assim dando erro já que a página não é resetada.
+PROMPT2: Repita o processo deixando somente as engrenagens no canto inferior direito
+
+No dia 06 foi ajustado mais algumas coisas na visualização do site do mobile e enfim obtive todos os fundos do site e depois me organizei com o segundo desenvolvedor para ver o que ele iria fazer
+
+Segunda feira Dia 10/08/2026 22:00-4:00 Finalizei a versão mobile é PC aprendi a retirar e adicionar itens na versão mobile como por exemplo tirar a barra de navegação do PC e adicionar um botão navegável só para mobile usando display block e none para retirar e colocar adicionei páginas que faltavam depois ajustei elas na versão mobile e aprendi que se usar "clamp" no font-size o tamanho do texto se ajusta dependendo do dispositivo facilita muito o trabalho e por último utilizei a IA para pegar a cor exata dos botões do design e colocar no código do site assim finalizando o site em uns 95%
+
+Dia 11/08/2026 as 19:00 horas:
+Hoje retirei a página de compra do site principal e criei um site só para esta sessão para que quando o usuário decidir que quer o nosso curso ir para esta sessão e depois  revisei o site para verificar se estava tudo certo
+
+Dia 13/08/2026- Hoje concertei o nome "confirmar" do botão no formulário de compra removi as formas de pagamento ajustei a visualização no modo "para computador" que tava dando zoom oucolocando os itens pro lado fazendo ficar com uma borda branca ou os itens ficarem bagunçadosso ajustando o body o html e o @media mudando o número de pixels para 1.000 e por último adicionei espaçamentos dos textos entre o canto da tela usando o padding
+
+Dia 18/08/2026 após me recuperer um pouco de estar doente adicionei as animações usando javascrip que comforme você desce a pagina o java script muda a classe do "reveal" para ativo que tem a função de aumentar a opacidade dos itens fazendo eles aparecerem e subirem para seu local de origem na pagina.
+
+Dia 21/08/2026- adicione um botão com ícone de olho que com o javascript quando você clica no botão ele altera o input do local onde você coloca senha para "text" assim permitindo você ver sua senha e depois quando você clicar no botão novamente  input da senha voltara a ser "password" deixando a senha cheia de pontinhos novamente

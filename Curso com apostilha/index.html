@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do curso</title>
+    <link rel="stylesheet" href="IA2.css">
+</head>
+
+<body>
+    <header>
+    <div class="superior">
+        <h1>Do zero absoluto ao domínio da IA</h1>
+    </div>
+    </header>
+    
+    <main>
+
+        <!-- BLOCO INICIANTE -->
+         <div class="cursos">
+        <div class="meio1" id="bloco-iniciante">
+            <p>Nível: iniciante</p>
+            <a href="https://canva.link/gjycer9l5aq3g00" target="_blank" class="botao-download">Apostila Digital - Iniciante</a>
+            <!-- Link envia o aluno para o quiz identificando que ele está no nível iniciante -->
+            <a href="quiz1.html" class="btn-abrir-quiz">📝 Responder Quiz do Curso</a>
+            <h2>Cursos: <span style="color: rgb(102, 255, 47);" id="status-iniciante">Disponível •</span></h2>
+            <div id="quiz-janela-iniciante" class="caixa-quiz"></div>
+        </div>
+        
+        <!-- BLOCO INTERMEDIÁRIO -->
+        <div class="meio2" id="bloco-intermediario">
+            <h2>Nível Intermediário: <span id="status-intermediario">🔒 (Bloqueado)</span></h2>
+            <a href="https://canva.link/ynvad0z4oho5xw4" target="_blank" class="botao-download">Apostila Digital - Intermediário</a>
+            <!-- Link envia o aluno para o quiz identificando que ele está no nível intermediário -->
+            <a href="quiz2.html" class="btn-abrir-quiz">📝 Responder Quiz do Curso</a>
+            <p>Nível: Intermediário</p>
+            <div id="quiz-janela-intermediario" class="caixa-quiz"></div>
+        </div>
+
+        <!-- BLOCO PROFISSIONAL -->
+        <div class="meio3" id="bloco-profissional">
+            <h2>Nível Profissional: <span id="status-profissional">🔒 (Bloqueado)</span></h2>
+            <a href="https://canva.link/oz46xq83tvym9mz" target="_blank" class="botao-download">Apostila Digital - Profissional</a>
+            <a href="quiz3.html" class="btn-abrir-quiz">📝 Responder Quiz do Curso</a>
+            <p>Nível: Profissional</p>
+            <div id="quiz-janela-profissional" class="caixa-quiz"></div>
+        </div>
+         </div>
+    </main>
+
+    <script>
+        // Limpa memórias de testes antigos para não interferir na URL
+        localStorage.clear();
+
+        function gerenciarProgressoViaURL() {
+            // 1. Captura os elementos visuais do HTML
+            const blocoIntermediario = document.getElementById("bloco-intermediario");
+            const blocoProfissional = document.getElementById("bloco-profissional");
+            const statusIniciante = document.getElementById("status-iniciante");
+            const statusIntermediario = document.getElementById("status-intermediario");
+            const statusProfissional = document.getElementById("status-profissional");
+
+            // 2. Lê os parâmetros direto da barra de endereços (URL)
+            const parametros = new URLSearchParams(window.location.search);
+            
+            // Verifica se as flags de aprovação foram passadas na URL
+            const passouNoQuizIniciante = parametros.get("qz1") === "passou";
+            const passouNoQuizIntermediario = parametros.get("qz2") === "passou";
+
+            // --- RESOLUÇÃO DO ERRO: VALIDAÇÃO DO NÍVEL INTERMEDIÁRIO ---
+            if (passouNoQuizIniciante) {
+                if (blocoIntermediario) blocoIntermediario.classList.remove("meio-bloqueado");
+                if (statusIniciante) statusIniciante.innerText = "🏆 (Concluído!)";
+                if (statusIntermediario) {
+                    statusIntermediario.innerText = "🔓 (Liberado)";
+                    statusIntermediario.style.color = "#adff2f";
+                }
+            } else {
+                if (blocoIntermediario) blocoIntermediario.classList.add("meio-bloqueado");
+            }
+
+            // --- RESOLUÇÃO DO ERRO: VALIDAÇÃO DO NÍVEL PROFISSIONAL ---
+            if (passouNoQuizIntermediario) {
+                // Remove obrigatoriamente o bloqueio do bloco intermediário também para manter a coerência
+                if (blocoIntermediario) blocoIntermediario.classList.remove("meio-bloqueado");
+                if (statusIntermediario) {
+                    statusIntermediario.innerText = "🏆 (Concluído!)";
+                    statusIntermediario.style.color = "gold";
+                }
+
+                // Destrava e altera o visual do bloco profissional na hora
+                if (blocoProfissional) blocoProfissional.classList.remove("meio-bloqueado");
+                if (statusProfissional) {
+                    statusProfissional.innerText = "🔓 (Liberado)";
+                    statusProfissional.style.color = "#adff2f";
+                }
+            } else {
+                if (blocoProfissional) blocoProfissional.classList.add("meio-bloqueado");
+            }
+        }
+
+        // Executa a checagem visual das URLs assim que o aluno entra ou retorna ao site
+        window.addEventListener("DOMContentLoaded", gerenciarProgressoViaURL);
+    </script>
+</body>
+</html>

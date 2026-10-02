@@ -1,0 +1,2 @@
+No dia 14 eu continuei na construção do nosso segundo site, adicionando os códigos de flex box no css e conteúdo essenciais para complementar o projeto, dessa maneira aprendi melhor a lógica dos códigos flex box para seguir pros próximos desenvolvimentos.
+No dia 15 fiz alterações no site deixando ele organizado e preparando para possíveis modificações ao longo do mês, neste dia aprendi a solucionar alguns erros que ocorriam na elaboração de códigos, com isso concluir o segundo site mas sempre pronto pra alterações futuras.
