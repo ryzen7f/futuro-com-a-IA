@@ -740,7 +740,7 @@ footer {
 /*footer final */
 
 /*media responsividade inicio */
-@media (max-width: 1001px) {
+@media (max-width: 901px) {
     header {
         display: flex;
         width: 100%;
@@ -953,7 +953,7 @@ footer {
         font-size: 90%;
     }
     .linhav {
-        height: 60%;
+        height: 67%;
     }
     .topico1 {
         margin: 0;
