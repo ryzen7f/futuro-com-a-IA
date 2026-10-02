@@ -8,7 +8,7 @@ html, body {
 }
 header {
     height: 10vh;
-    width: 100%;
+    width: 100vw;
     background-color: rgb(38, 108, 240);
 }
 .superior {
@@ -36,7 +36,6 @@ main {
     display: flex;
     justify-content: start;
     height: 30vh;
-    
 }
 .meio1 {
     display: flex;
