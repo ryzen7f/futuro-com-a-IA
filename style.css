@@ -1178,6 +1178,9 @@ footer {
         width: 80%;
         height: auto;
     }
+    .p3 {
+        margin-bottom: 40px;
+    }
     .icones {
     display: flex;
     justify-content: center;
