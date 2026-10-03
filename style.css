@@ -981,6 +981,7 @@ footer {
         width: 100%;
         display: flex;
         flex-direction: column;
+        position: relative;
     }
 
     .sessao2 h1 {
@@ -998,10 +999,12 @@ footer {
     .linha_tmobile {
         display: flex;
         width: 20%;
-        height: 385%;
-        max-height: 490%;
+        height: 3300px;
         position: absolute;
-        padding-top: 200px;
+        padding-top: 500px;
+        left: 0;
+        top: 0;
+        z-index: 1;
     }
 
     .cardss1 {
@@ -1011,8 +1014,9 @@ footer {
         margin: 0;
         padding: 0;
         width: 100%;
-        height: 100%;
+        height: auto;
         gap: 10px;
+        position: relative;
     }
 
     .card1 {
@@ -1023,10 +1027,8 @@ footer {
         padding: 0;
     }
 
-    .card1 h3,
-    p {
+    .card1 h3, p {
         margin: 0;
-
     }
 
     .card2 {
@@ -1065,6 +1067,7 @@ footer {
         flex-direction: column;
         gap: 80px;
         width: 100%;
+        margin-top: 150px;
     }
 
     .sessao3 h1 {
@@ -1125,6 +1128,7 @@ footer {
         flex-direction: column;
         justify-content: start;
         width: 100%;
+        height: 60vh;
         margin: 0;
         padding: 0;
     }
@@ -1139,6 +1143,8 @@ footer {
         padding: 0;
         border-radius: 10px;
         border: none;
+        height: 10%;
+        width: 90%;
     }
 
     .sessao4 {
