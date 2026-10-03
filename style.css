@@ -831,7 +831,7 @@ footer {
         top:10vh;
         left: 0;
         margin: 0;
-        height: 17vh;
+        height: 17.5vh;
         box-sizing: border-box;
         overflow: hidden;
     }
@@ -850,18 +850,13 @@ footer {
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
 }
 
     nav.ativo a {
         width: 100%;
         max-width: 100%;
-        gap: 10px;
-        flex: 1;
         display: flex;
-        align-items: start;
-        justify-content: flex-start;
+        align-items: center;
         margin: 0;
         border-radius: 0;
         border-left: none;
