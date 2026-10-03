@@ -999,6 +999,7 @@ footer {
         display: flex;
         width: 20%;
         height: 385%;
+        min-height: 100%;
         position: absolute;
         padding-top: 200px;
     }
