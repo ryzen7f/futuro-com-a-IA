@@ -865,6 +865,23 @@ footer {
         border-bottom: solid 2px black;
         background-color: transparent;
         color: #003c82;
+        animation-name: entrar1;
+        animation-duration: 0.15s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes entrar1 {
+        0% {
+            opacity: 0;
+            transform: translateX(100px);
+            color: rgb(11, 180, 180);
+        }
+        50% {
+            color: aquamarine;
+        }
+        100% {
+            transform: translateZ(0);
+            opacity: 1;
+        }
     }
 
     .usuario {
