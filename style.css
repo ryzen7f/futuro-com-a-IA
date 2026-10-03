@@ -3,8 +3,10 @@ body {
     margin: 0;
     padding: 0;
 }
+
 html {
-     scroll-behavior: smooth; /*deixa a rolagem suave*/
+    scroll-behavior: smooth;
+    /*deixa a rolagem suave*/
 }
 
 * {
@@ -39,9 +41,6 @@ header {
 
 .menu_mobile {
     display: none;
-    background-color: rgb(249, 244, 244);
-    border: none;
-    border: solid 1px;
 }
 
 .menu_mobile:active {
@@ -55,6 +54,7 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+
 .titulo_mobile {
     display: none;
 }
@@ -296,6 +296,7 @@ nav {
     margin: 0;
     margin-left: 1%;
 }
+
 .linha_tmobile {
     display: none;
 }
@@ -335,6 +336,7 @@ nav {
     justify-content: end;
     height: 39%;
 }
+
 .cardss1 a {
     padding: 12px 57px;
     border: solid 2px;
@@ -382,8 +384,9 @@ nav {
     flex-direction: column;
     align-items: center;
 }
+
 .card2 img {
-    height:47%;
+    height: 47%;
 }
 
 .card2:hover,
@@ -634,6 +637,7 @@ nav {
     justify-content: space-around;
     align-items: center;
 }
+
 .dupla {
     margin: 0;
     padding: 0;
@@ -722,12 +726,14 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+
 .dupla2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
 }
+
 .cardss3 {
     width: 20%;
 }
@@ -756,6 +762,7 @@ footer {
     width: 20%;
     margin: 0;
 }
+
 .logofinal img {
     height: 255px;
     width: 85%;
@@ -780,7 +787,13 @@ footer {
 
     .menu_mobile {
         display: flex;
-        background-color: none;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(254, 249, 249);
+        border: solid 1px;
+        width: 20%;
+        height: 100%;
+        font-size: 300%;
     }
 
     nav {
@@ -790,6 +803,18 @@ footer {
     .logo {
         display: none;
     }
+
+    .titulo_mobile {
+        display: flex;
+        color: #045dba;
+        margin-left: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        font-size: 190%;
+    }
+
     nav.ativo {
         display: flex;
         flex-direction: column;
@@ -799,16 +824,6 @@ footer {
         position: absolute;
         margin-top: 85px;
         height: 28vh;
-    }
-    .titulo_mobile {
-        display: flex;
-        color: #045dba;
-        margin-left: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        display: flex;
-        align-items: center;
-        font-size: 250%;
     }
 
     nav.ativo .botoes-usuario {
@@ -839,6 +854,7 @@ footer {
     .usuario {
         display: none;
     }
+
     .sessao1 {
         display: flex;
         flex-direction: column-reverse;
@@ -866,14 +882,16 @@ footer {
         top: -100px;
         left: -100px;
     }
+
     @keyframes aparecer3 {
         0% {
-        opacity: 1;
+            opacity: 1;
         }
+
         100% {
             opacity: 1;
-        top: 30px;
-        left: 65px;
+            top: 30px;
+            left: 65px;
         }
     }
 
@@ -886,14 +904,16 @@ footer {
         animation-name: aparecer4;
         animation-duration: 2.5s;
     }
+
     @keyframes aparecer4 {
         0% {
             opacity: 1;
         }
+
         100% {
-        opacity: 1;
-        top: 50px;
-        right: 65px;
+            opacity: 1;
+            top: 50px;
+            right: 65px;
         }
     }
 
@@ -940,6 +960,7 @@ footer {
     .linha_tempo {
         display: none;
     }
+
     .linha_tmobile {
         display: flex;
         width: 20%;
@@ -966,7 +987,9 @@ footer {
         flex-direction: column;
         padding: 0;
     }
-    .card1 h3, p {
+
+    .card1 h3,
+    p {
         margin: 0;
 
     }
@@ -996,6 +1019,7 @@ footer {
         width: 70%;
         margin: 0;
     }
+
     .cardss1 a {
         margin-bottom: 40px;
         margin-top: 50px;
@@ -1007,15 +1031,17 @@ footer {
         gap: 80px;
         width: 100%;
     }
+
     .sessao3 h1 {
         font-size: 300%;
         margin: 0;
     }
+
     .sessao3 h2 {
         font-size: 250%;
         margin: 0;
         margin-bottom: 10px;
-    } 
+    }
 
     .topicos {
         width: 100%;
@@ -1024,9 +1050,11 @@ footer {
         padding: 0;
         font-size: 90%;
     }
+
     .linhav {
         left: 9%;
     }
+
     .topico1 {
         margin: 0;
         margin-bottom: 10px;
@@ -1035,18 +1063,21 @@ footer {
         font-size: 80%;
         padding: 0;
     }
+
     .numero {
         font-size: 300%;
     }
-    .topico1_text { 
-        margin: 0; 
+
+    .topico1_text {
+        margin: 0;
         margin-left: 90px;
         margin-top: 10px;
-     }
-     .topico1_text h3 {
+    }
+
+    .topico1_text h3 {
         height: 10%;
         margin-bottom: 1px;
-     }
+    }
 
     .img_botao {
         display: flex;
@@ -1056,10 +1087,12 @@ footer {
         margin: 0;
         padding: 0;
     }
+
     .img_botao img {
         width: 100%;
         height: 50%;
     }
+
     .img_botao a {
         margin: 0;
         padding: 0;
@@ -1071,6 +1104,7 @@ footer {
         width: 100%;
         flex-direction: column;
     }
+
     .linhas4 {
         width: 25%;
     }
@@ -1079,9 +1113,11 @@ footer {
         width: 100%;
         flex-direction: column;
     }
+
     .dupla {
         gap: 25px;
     }
+
     .c1 {
         width: 80%;
     }
@@ -1105,9 +1141,9 @@ footer {
         align-items: center;
         gap: 10px;
     }
-    .dupla2 {
 
-    }
+    .dupla2 {}
+
     .cardss3 {
         display: flex;
         flex-direction: column;
@@ -1117,10 +1153,12 @@ footer {
         height: 100%;
         margin-top: 10px;
     }
+
     .mobilefinal {
         display: flex;
         flex-direction: row;
     }
+
     .logofinal {
         width: 100%;
         display: flex;
@@ -1129,10 +1167,12 @@ footer {
         align-items: center;
         margin: 0;
     }
+
     .logofinal img {
-    height: 255px;
-    width: 75%;
-}
+        height: 255px;
+        width: 75%;
+    }
+
     .logofinal p {
         color: white;
     }
