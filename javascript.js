@@ -1,26 +1,22 @@
-// ===============================
-// MENU MOBILE
-// ===============================
+// MENU MOBILE botão que torna a nav bar visivel novamente nav.ativo
 
 const menuMobile = document.querySelector(".menu_mobile");
-const nav = document.querySelector("nav");
+const nav = document.querySelector("nav"); //selecioando items
 
-menuMobile.addEventListener("click", () => {
+menuMobile.addEventListener("click", () => { // muda para nav.ativo no click
     nav.classList.toggle("ativo");
 });
 
-// Fecha o menu quando um link é clicado
-document.querySelectorAll("nav a").forEach((link) => {
+// Fecha quando é clicado nav
+document.querySelectorAll("nav a").forEach((link) => {  
     link.addEventListener("click", () => {
-        nav.classList.remove("ativo");
+        nav.classList.remove("ativo"); //remove o .ativo do nav
     });
 });
 
-// ===============================
-// ANIMAÇÃO AO ROLAR A PÁGINA
-// ===============================
+//ANIMAÇÃO ADICIONADA AO ROLAR A PAGINA revel.ativo
 
-const elementos = document.querySelectorAll(".reveal");
+const elementos = document.querySelectorAll(".reveal"); //selecioando item 
 
 function mostrarElementos() {
     elementos.forEach((elemento) => {
