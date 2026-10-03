@@ -2,6 +2,9 @@ html,
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 html {
@@ -820,14 +823,14 @@ footer {
         flex-direction: column;
         width: 100%;
         max-width: 100%;
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.946);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
         border-bottom: solid 2px;
         position: fixed;
         top:10vh;
         left: 0;
         margin: 0;
-        height: 28vh;
+        height: 17vh;
         box-sizing: border-box;
         overflow: hidden;
     }
@@ -842,13 +845,19 @@ footer {
         max-width: 100%;
         box-sizing: border-box;
     }
+    nav.ativo .botoes {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
 
     nav.ativo a {
         width: 100%;
+        max-width: 100%;
         gap: 10px;
         display: flex;
+        align-items: start;
         margin: 0;
-        margin-top: 10px;
         border-radius: 0;
         border-left: none;
         border-right: none;
@@ -1060,6 +1069,12 @@ footer {
 
     .linhav {
         left: 9%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        margin-top: 0;
+        height: 70%;
     }
 
     .topico1 {
