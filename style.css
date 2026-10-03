@@ -792,7 +792,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgb(254, 249, 249);
+        background-color: rgba(255, 255, 255, 0.946);
         border: solid 1px;
         width: 20%;
         height: 100%;
