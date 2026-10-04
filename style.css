@@ -782,7 +782,7 @@ footer {
 /*footer final */
 
 /*media responsividade inicio */
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     header {
         display: flex;
         width: 100%;
