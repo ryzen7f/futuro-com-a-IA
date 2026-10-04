@@ -1171,17 +1171,15 @@ footer {
     }
 
     .c1 {
-        width: 80%;
+        width: 60%;
         height: auto;
     }
 
     .c2 {
-        width: 80%;
+        width: 60%;
         height: auto;
     }
-    .icones {
-
-    }
+    .icones {}
     .p3 {
         height:40% ;
     }
@@ -1192,6 +1190,8 @@ footer {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
     }
 
     .c-creditos {
@@ -1239,11 +1239,12 @@ footer {
         justify-content: center;
         align-items: center;
         margin: 0;
+        padding: 0;
     }
 
     .logofinal img {
         height: 255px;
-        width: 100%;
+        width: 75%;
     }
 
     .logofinal p {
