@@ -860,7 +860,7 @@ footer {
         display: flex;
         align-items: center;
         padding: 0;
-        padding-left: 10px;
+        padding-left: 20px;
         margin: 0;
         border-radius: 0;
         border-left: none;
@@ -1167,7 +1167,6 @@ footer {
     .dupla {
         gap: 25px;
         height: auto;
-        margin-bottom: 25px;
     }
 
     .c1 {
@@ -1179,17 +1178,9 @@ footer {
         width: 80%;
         height: auto;
     }
-    .icones {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    height: auto;
-    margin-top: 60px;
-}
-.p3 {
-    margin: 0;
-}
+    .icones p {
+        margin-top: 5px;
+    }
 
     footer {
         width: 100%;
