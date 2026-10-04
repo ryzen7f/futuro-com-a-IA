@@ -1167,6 +1167,7 @@ footer {
     .dupla {
         gap: 25px;
         height: auto;
+        margin-bottom: 30px;
     }
 
     .c1 {
@@ -1178,10 +1179,12 @@ footer {
         width: 80%;
         height: auto;
     }
-    .icones p {
-        margin-top: 5px;
-    }
+    .icones {
 
+    }
+    .p3 {
+        height:40% ;
+    }
     footer {
         width: 100%;
         height: auto;
@@ -1199,7 +1202,8 @@ footer {
         gap: 10px;
     }
 
-    .dupla2 {}
+    .dupla2 {
+    }
 
     .cardss3 {
         display: flex;
