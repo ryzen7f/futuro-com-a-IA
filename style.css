@@ -714,6 +714,7 @@ nav {
 /* footer inicio */
 footer {
     height: 32vh;
+    height: auto;
     width: 100%;
     background-image: url(imagens/footer.png);
     background-repeat: no-repeat;
@@ -781,7 +782,7 @@ footer {
 
 /*footer final */
 
-/*media responsividade inicio */
+/*media responsividade mobile inicio */
 @media screen and (max-width: 1000px) {
     header {
         display: flex;
@@ -1259,4 +1260,787 @@ footer {
         justify-content: center;
         text-wrap: wrap;
     }
+}
+
+        /*Telas menores 150%*/
+@media screen and (min-width: 1001px) and (max-width: 1450px) {
+
+    .botoes a {
+        padding: 11px 30px;
+        margin-left: 16px;
+        white-space: nowrap;
+    }
+
+    .usuario {
+        width: auto;
+        margin-left: 22px;
+        margin-right: 18px;
+    }
+
+    .usuario img {
+        width: 64px;
+        height: 64px;
+    }
+    .logo img {
+        height: 170%;
+    }
+
+    .sessao1 {
+        min-height: 100vh;
+    }
+
+    .titulo-botao h1 {
+        width: 100%;
+        font-size: clamp(56px, 7vw, 110px);
+        line-height: 0.98;
+    }
+
+    .titulo-botao p {
+        width: 95%;
+        max-width: 720px;
+        font-size: clamp(20px, 2.35vw, 34px);
+        line-height: 1.18;
+    }
+
+    .titulo-botao p br { /*br retirado para não atrapalhar em PCs menores BUG encontrado com IA */
+        display: none; /*Some com o <br> */
+    }
+
+    .titulo-botao a {
+        width: auto;
+        min-width: 250px;
+        min-height: 48px;
+        height: auto;
+        padding: 10px 24px;
+        font-size: clamp(14px, 1.15vw, 18px);
+        white-space: nowrap;
+    }
+
+    .foto-capa {
+        height: 90vh;
+    }
+
+    .foto-capa img {
+        width: 92%;
+        height: 84%;
+        object-fit: contain;
+        left: 4%;
+        top: 8%;
+    }
+
+    .triangulo1 {
+        width: 86%;
+        height: 84%;
+        left: 2%;
+    }
+
+    .triangulo2 {
+        width: 86%;
+        height: 80%;
+        right: -1%;
+    }
+
+    .sessao2 h1 {
+        font-size: clamp(64px, 4.6vw, 90px);
+        margin-top: 2.5%;
+    }
+
+    .cardss1 {
+        height: auto;
+        min-height: 60vh;
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        gap: clamp(8px, 0.9vw, 16px);
+        padding: 0 1.5%;
+        align-items: stretch;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6 {
+        width: auto;
+        min-width: 0;
+        height: 60vh;
+        margin: 0;
+        padding: 0 4px 10px;
+        position: relative;
+    }
+
+    /* imagens retiradas para não ocupar espaço atoa */
+    .cardss1 > .card1 > img,
+    .cardss1 > .card2 > img,
+    .cardss1 > .card3 > img,
+    .cardss1 > .card4 > img,
+    .cardss1 > .card5 > img,
+    .cardss1 > .card6 > img {
+        display: none;
+    }
+
+    .cardss1 h3,
+    .card3 h3 {
+        position: static;
+        top: auto;
+        width: 100%;
+        min-height: 0;
+        margin: 13px 0 0;
+        padding: 0 4px;
+        text-align: center;
+        font-size: clamp(13px, 1.12vw, 18px);
+        line-height: 1.08;
+    }
+
+    .cardss1 p {
+        width: 100%;
+        margin: 10px 0 0;
+        padding: 0 5px;
+        text-align: center;
+        font-size: clamp(11px, 0.92vw, 15px);
+        line-height: 1.18;
+    }
+
+    .bt1 {
+        width: 100%;
+        height: auto;
+        margin-top: auto;
+        padding-top: 10px;
+    }
+
+    .cardss1 a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 92%;
+        min-height: 40px;
+        height: auto;
+        margin: 0 auto;
+        padding: 9px 5px;
+        font-size: clamp(10px, 0.88vw, 14px);
+        line-height: 1.1;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    .sessao3 {
+        min-height: auto;
+        align-items: stretch;
+    }
+
+    .topicos {
+        height: auto;
+        min-height: 95vh;
+    }
+
+    .topicos h1 {
+        font-size: clamp(58px, 4.6vw, 82px);
+        line-height: 1;
+    }
+
+    .topicos h2 {
+        font-size: clamp(40px, 3.25vw, 58px);
+        line-height: 1;
+    }
+
+    .topico1 {
+        min-height: 120px;
+        height: auto;
+        margin-top: 18px;
+        align-items: flex-start;
+    }
+
+    .numero {
+        flex: 0 0 auto;
+        width: 72px;
+        height: 72px;
+        border-width: 8px;
+        font-size: 210%;
+    }
+
+    .topico1_text {
+        top: auto;
+        margin-left: 90px;
+        margin-top: -72px;
+        padding-right: 18px;
+        font-size: 100%;
+    }
+
+    .topico1_text h3 {
+        height: auto;
+        margin: 0 0 8px;
+        font-size: clamp(22px, 1.65vw, 30px);
+        line-height: 1.08;
+    }
+
+    .topico1_text p {
+        height: auto;
+        font-size: clamp(14px, 1.02vw, 17px);
+        line-height: 1.28;
+    }
+
+    .linhav {
+        height: 63%;
+    }
+
+    .img_botao {
+        height: auto;
+        min-height: 95vh;
+    }
+
+    .img_botao img {
+        width: 108%;
+        height: auto;
+        max-height: 65%;
+        object-fit: contain;
+    }
+
+    .img_botao a {
+        width: 82%;
+        min-height: 48px;
+        height: auto;
+        padding: 9px 16px;
+        font-size: clamp(15px, 1.15vw, 20px);
+    }
+
+    .dupla {
+        height: auto;
+        min-height: 50vh;
+        gap: clamp(20px, 3vw, 49px);
+        align-items: stretch;
+    }
+
+    .c1,
+    .c2 {
+        height: auto;
+        min-height: 310px;
+        padding-bottom: 25px;
+    }
+
+    .c1 > img,
+    .c2 > img {
+        max-width: 80%;
+        width: 80%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .p3 {
+        height: auto;
+        margin-bottom: 20px;
+        line-height: 1.25;
+    }
+
+    .icones {
+        margin-top: auto;
+        flex-shrink: 0;
+    }
+
+    footer {
+        min-height: 32vh;
+        height: auto;
+        display: flex;
+    }
+
+    .logofinal img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+        /* Tela 150% */
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+
+    .botoes-usuario {
+        gap: 10px;
+    }
+
+    .botoes a {
+        padding: 10px 22px;
+        margin-left: 8px;
+        font-size: 15px;
+    }
+
+    .usuario {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .usuario img {
+        width: 56px;
+        height: 56px;
+    }
+
+    .titulo-botao h1 {
+        font-size: clamp(52px, 7vw, 100px);
+    }
+
+    .titulo-botao p {
+        font-size: clamp(19px, 2.25vw, 29px);
+        width: 98%;
+    }
+
+    .titulo-botao a {
+        min-width: 220px;
+        padding-inline: 18px;
+    }
+
+    .cardss1 {
+        gap: 7px;
+        padding-inline: 1%;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6 {
+        padding-inline: 2px;
+    }
+
+    .cardss1 h3,
+    .card3 h3 {
+        font-size: clamp(12px, 1.05vw, 16px);
+        margin-top: 11px;
+    }
+
+    .cardss1 p {
+        font-size: clamp(10px, 0.88vw, 13px);
+        line-height: 1.15;
+        padding-inline: 3px;
+        margin-top: 8px;
+    }
+
+    .cardss1 a {
+        width: 94%;
+        min-height: 36px;
+        font-size: 10px;
+        padding-inline: 2px;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1450px) {
+
+.logo img {
+    width: 120px;
+    height: 130px;
+}
+
+    .cardss1 h3,
+    .card3 h3 {
+        position: static;
+        top: auto;
+        width: 100%;
+        min-height: 0;
+        margin: 13px 0 16px;
+        padding: 0 4px;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    .cardss1 p {
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 5px;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    .bt1 {
+        width: 100%;
+        height: auto;
+        margin-top: auto;
+        padding-top: 14px;
+    }
+    .sessao4 {
+    min-height: auto;
+    padding-bottom: 30px;
+}
+
+
+}
+
+        /* tela 125% */
+@media screen and (min-width: 1201px) and (max-width: 1450px) {
+
+    .sessao3 {
+        min-height: calc(95vh + 80px);
+    }
+
+    .topicos {
+        min-height: calc(95vh + 80px);
+        padding-bottom: 40px;
+    }
+
+    .topico1 {
+        min-height: 120px;
+    }
+}
+
+    .txt_mobile {
+        white-space: nowrap;
+    }
+
+/* tela zoom 125% */
+@media screen and (min-width: 1451px) and (max-width: 1600px) {
+
+    /* ========================================================
+       HEADER
+       ======================================================== */
+    .botoes-usuario {
+        gap: 18px;
+    }
+
+    .botoes a {
+        padding: 11px 30px;
+        margin-left: 12px;
+        white-space: nowrap;
+        font-size: 16px;
+    }
+
+    .usuario {
+        width: auto;
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+
+    .usuario img {
+        width: 68px;
+        height: 68px;
+    }
+
+    /* ========================================================
+       HERO
+       ======================================================== */
+    .titulo-botao h1 {
+        width: 100%;
+        font-size: clamp(58px, 6.8vw, 108px);
+        line-height: 0.98;
+    }
+
+    .titulo-botao p {
+        width: 95%;
+        max-width: 700px;
+        font-size: clamp(20px, 2.15vw, 32px);
+        line-height: 1.18;
+    }
+
+    .titulo-botao p br {
+        display: none;
+    }
+
+    .titulo-botao a {
+        width: auto;
+        min-width: 250px;
+        min-height: 48px;
+        height: auto;
+        padding: 10px 24px;
+        font-size: clamp(14px, 1.05vw, 18px);
+        white-space: nowrap;
+    }
+
+    .foto-capa img {
+        width: 94%;
+        height: 86%;
+        object-fit: contain;
+        left: 3%;
+        top: 7%;
+    }
+
+    .triangulo1 {
+        width: 87%;
+        height: 85%;
+        left: 1%;
+    }
+
+    .triangulo2 {
+        width: 87%;
+        height: 81%;
+        right: -1%;
+    }
+
+    /* ========================================================
+       INVENÇÕES
+       O problema de 125% acontece porque o CSS original mantém
+       os títulos em position:absolute e tenta encaixar seis cards
+       estreitos em uma única linha.
+       ======================================================== */
+    .sessao2 {
+        padding-bottom: 24px;
+    }
+
+    .sessao2 h1 {
+        font-size: clamp(64px, 4.5vw, 88px);
+        margin-top: 2.5%;
+        line-height: 1;
+    }
+
+    .cardss1 {
+        height: auto;
+        min-height: 60vh;
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        gap: clamp(9px, 0.75vw, 14px);
+        padding: 0 1.5%;
+        align-items: stretch;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6 {
+        width: auto;
+        min-width: 0;
+        height: 60vh;
+        margin: 0;
+        padding: 0 4px 10px;
+        position: relative;
+    }
+
+    /* Os cards já usam background-image. O <img> do HTML ficava
+       invisível no CSS original e só ocupava espaço interno. */
+    .cardss1 > .card1 > img,
+    .cardss1 > .card2 > img,
+    .cardss1 > .card3 > img,
+    .cardss1 > .card4 > img,
+    .cardss1 > .card5 > img,
+    .cardss1 > .card6 > img {
+        display: none;
+    }
+
+    /* Título volta para o fluxo normal: imagem de fundo -> título -> texto. */
+    .cardss1 h3,
+    .card3 h3 {
+        position: static;
+        top: auto;
+        width: 100%;
+        min-height: 0;
+        margin: 14px 0 14px;
+        padding: 0 4px;
+        text-align: center;
+        font-size: clamp(15px, 1.05vw, 18px);
+        line-height: 1.12;
+    }
+
+    /* Espaço real entre título e parágrafo. */
+    .cardss1 p {
+        width: 100%;
+        margin: 0;
+        padding: 0 5px;
+        text-align: center;
+        font-size: clamp(12px, 0.88vw, 15px);
+        line-height: 1.2;
+    }
+
+    /* Botão fica preso ao final do card sem empurrar o texto para cima. */
+    .bt1 {
+        width: 100%;
+        height: auto;
+        margin-top: auto;
+        padding-top: 12px;
+    }
+
+    .cardss1 a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 92%;
+        min-height: 40px;
+        height: auto;
+        margin: 0 auto;
+        padding: 8px 5px;
+        font-size: clamp(11px, 0.82vw, 14px);
+        line-height: 1.1;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    /* ========================================================
+       NOSSO CURSO
+       A correção importante aqui é permitir que o conteúdo
+       determine a altura da seção. O CSS original usava 95vh
+       fixos, então o quarto tópico podia ultrapassar a seção e
+       invadir o início de "Sobre nós".
+       ======================================================== */
+    .sessao3 {
+        min-height: auto;
+        height: auto;
+        align-items: stretch;
+    }
+
+    .topicos {
+        height: auto;
+        min-height: 95vh;
+        padding-bottom: 60px;
+    }
+
+    .topicos h1 {
+        font-size: clamp(58px, 4.5vw, 80px);
+        line-height: 1;
+    }
+
+    .topicos h2 {
+        font-size: clamp(42px, 3.15vw, 56px);
+        line-height: 1;
+    }
+
+    /* Cada tópico passa a ter altura própria em vez de depender
+       de porcentagem da seção. */
+    .topico1 {
+        min-height: 122px;
+        height: auto;
+        margin-top: 18px;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 18px;
+    }
+
+    .numero {
+        flex: 0 0 72px;
+        width: 72px;
+        height: 72px;
+        border-width: 8px;
+        font-size: 210%;
+    }
+
+    .topico1_text {
+        position: static;
+        margin: 0;
+        padding: 0 18px 0 0;
+        font-size: 100%;
+        flex: 1;
+        min-width: 0;
+    }
+
+    .topico1_text h3 {
+        height: auto;
+        margin: 0 0 8px;
+        font-size: clamp(22px, 1.58vw, 30px);
+        line-height: 1.08;
+    }
+
+    .topico1_text p {
+        height: auto;
+        margin: 0;
+        font-size: clamp(14px, 0.98vw, 17px);
+        line-height: 1.28;
+    }
+
+    /* A linha acompanha a área dos tópicos sem depender de uma
+       altura fixa de 58% que ficava curta na largura de 125%. */
+    .linhav {
+        height: calc(100vh - 80px);
+        min-height: 415px;
+        max-height: 430px;
+    }
+
+    .img_botao {
+        height: auto;
+        min-height: 95vh;
+    }
+
+    .img_botao img {
+        width: 108%;
+        height: auto;
+        max-height: 65%;
+        object-fit: contain;
+    }
+
+    .img_botao a {
+        width: 82%;
+        min-height: 48px;
+        height: auto;
+        padding: 9px 16px;
+        font-size: clamp(15px, 1.05vw, 20px);
+    }
+
+    /* ========================================================
+       SOBRE NÓS
+       Garante que o bloco receba o espaço natural depois da
+       expansão da seção anterior.
+       ======================================================== */
+    .sessao4 {
+        min-height: auto;
+        padding-bottom: 30px;
+    }
+
+    .dupla {
+        height: auto;
+        min-height: 50vh;
+        gap: clamp(24px, 2.8vw, 45px);
+        align-items: stretch;
+    }
+
+    .c1,
+    .c2 {
+        height: auto;
+        min-height: 310px;
+        padding-bottom: 25px;
+    }
+
+    .c1 > img,
+    .c2 > img {
+        max-width: 80%;
+        width: 80%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .p3 {
+        height: auto;
+        margin-bottom: 20px;
+        line-height: 1.25;
+    }
+
+    .icones {
+        margin-top: auto;
+        flex-shrink: 0;
+    }
+
+    /* ========================================================
+       FOOTER
+       ======================================================== */
+    footer {
+        min-height: 32vh;
+        height: auto;
+    }
+
+    .logofinal img {
+        max-width: 100%;
+        height: auto;
+    }
+    .txt_mobile {
+        white-space: nowrap;
+    }
+
+}
+
+/* Pequeno refinamento para a faixa de 125% mais próxima do limite. */
+@media screen and (min-width: 1501px) and (max-width: 1600px) {
+
+    .cardss1 h3,
+    .card3 h3 {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        font-size: clamp(15px, 1vw, 18px);
+    }
+
+    .cardss1 p {
+        font-size: clamp(12px, 0.86vw, 14px);
+        line-height: 1.2;
+    }
+
+    .topico1 {
+        min-height: 126px;
+    }
+
+    .topicos {
+        padding-bottom: 70px;
+    }
+    
 }
