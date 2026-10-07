@@ -45,3 +45,55 @@ Erro 3: tem uma borda branca fina na lateral do site.
 Sugestão: no final, é bom colocar e-mail profissional, telefone/WhatsApp para atendimento ao cliente, e Instagram.
 
 Leonardo continuou a construção do site do curso, adicionando os códigos restantes de HTML e CSS por meio do VS Code. Também realizou a inserção de imagens e descrições, além da implementação de um botão responsável por redirecionar o usuário para o próximo site, que ainda está em desenvolvimento.
+-------------------------------------------REDESIGN---------------------------------------------------------------------------------------------------
+Relatório de Desenvolvimento do Projeto
+
+Relatório elaborado por: Artur Gabriel
+
+21 de agosto
+
+Foram realizadas novas melhorias no site, incluindo a implementação de animações em toda a plataforma, abrangendo também os botões, com o objetivo de tornar a navegação mais dinâmica e interativa.
+
+Além disso, foi adicionado um ícone de olho no campo de senha, permitindo que o usuário visualize a senha digitada quando necessário. Essa funcionalidade contribui para uma melhor experiência de uso e facilita o preenchimento dos dados no site.
+
+24 de agosto
+
+O professor realizou uma aula destinada à análise dos sites desenvolvidos por todos os grupos. Durante a avaliação do nosso projeto, foi solicitado que o design do site fosse completamente reformulado, pois a interface não apresentava uma experiência visual adequada e possuía uma aparência semelhante à de um “slide”.
+
+O professor apresentou alguns exemplos de sites como referência e inspiração para a reformulação. A partir disso, iniciamos o processo de redesign do site, utilizando sugestões dos integrantes do grupo e referências de outros sites.
+
+30 de agosto
+
+O design do site passou por uma nova reformulação após o professor identificar alguns pontos que ainda precisavam ser corrigidos e aprimorados.
+
+Durante esse período, o grupo realizou discussões para definir quais alterações seriam feitas e como melhorar a organização e a aparência da interface.
+
+6 de setembro
+
+Foram adquiridas algumas peças de roupa que serão utilizadas pelos integrantes durante a apresentação do projeto. Nesse momento, ainda não haviam sido compradas as roupas de todos os integrantes, ficando as demais aquisições para posteriormente.
+
+13 de setembro
+
+Durante o desenvolvimento do projeto, o grupo decidiu realizar novas alterações na parte preta do site, buscando deixá-la mais limpa, organizada e minimalista, evitando o excesso de informações visuais.
+
+Também foi planejada a inclusão de uma frase em destaque na parte inferior da página, com o objetivo de melhorar a apresentação e transmitir a proposta do projeto de maneira mais clara.
+
+19 de setembro
+
+Após aproximadamente três semanas de desenvolvimento, ajustes e utilização de diferentes referências, foi concluída a etapa de redesign do site para computadores.
+
+Durante esse período, o design foi desenvolvido e aprimorado com o auxílio das sugestões dos integrantes do grupo e da análise de outros sites como referência. O processo levou algumas semanas devido à necessidade de conciliar o desenvolvimento do projeto com outras atividades e trabalhos.
+
+A versão do site para dispositivos móveis havia sido desenvolvida anteriormente à versão para computadores. Com a conclusão da versão para computador, o foco passou para os ajustes e aprimoramentos das demais partes do projeto.
+
+29 de setembro
+
+Foi concluída a implementação de todas as seções do site. Após essa etapa, Davi Pereira, responsável pela arquitetura do projeto, iniciou os ajustes e refinamentos das seções.
+
+Ao mesmo tempo, Jheyson, responsável pelo design, começou a realizar ajustes nos slides da apresentação, discutindo com os demais integrantes do grupo quais informações deveriam ser incluídas e como o conteúdo seria organizado.
+
+Considerações finais
+
+Durante o período de desenvolvimento, o projeto passou por diversas etapas de criação, avaliação, reformulação e aprimoramento. As observações feitas pelo professor foram importantes para identificar problemas na interface e orientar o grupo na busca por um design mais moderno, organizado, funcional e agradável para o usuário.
+
+Ao longo das semanas, foram implementadas funcionalidades, animações, melhorias visuais e ajustes na estrutura do site. Com a conclusão das seções e do redesign para computadores, o projeto avançou para a etapa final de ajustes da plataforma e preparação dos materiais para a apresentação.
