@@ -1,2 +1,14 @@
 No dia 14 eu continuei na construção do nosso segundo site, adicionando os códigos de flex box no css e conteúdo essenciais para complementar o projeto, dessa maneira aprendi melhor a lógica dos códigos flex box para seguir pros próximos desenvolvimentos.
 No dia 15 fiz alterações no site deixando ele organizado e preparando para possíveis modificações ao longo do mês, neste dia aprendi a solucionar alguns erros que ocorriam na elaboração de códigos, com isso concluir o segundo site mas sempre pronto pra alterações futuras.
+-------------------------------------------------------------------REDESIGN----------------------------------------------------------------------------
+No dia 14 de setembro, eu continuei na construção do nosso segundo site, adicionando os códigos de flex box no css e conteúdo essenciais para complementar o projeto, dessa maneira aprendi melhor a lógica dos códigos flex box para seguir pros próximos desenvolvimentos.
+
+No dia 15 de setembro, fiz alterações no site deixando ele organizado e preparando para possíveis modificações ao longo do mês, neste dia aprendi a solucionar alguns erros que ocorriam na elaboração de códigos, com isso concluir o segundo site mas sempre pronto pra alterações futuras.
+
+No dia 22 de setembro, iniciei o terceiro site montando a estrutura completa dele e adicionando decorações com css, coloquei as imagens e as dificuldades do curso, ainda está em processo pois irei fazer ajustes e adicionar maos conteúdos.
+
+No dia 23 de setembro, eu usei a IA para fazer um botão para visualizar e baixar a apostila que fiz em pdf do curso, mas ainda há itens à serem inseridos como eu e meu grupo combinamos.
+
+Nos dias 26 e 27 de setembro, fiz toda a parte do java script do site onde ficam os cursos, com um auxílio da IA, adicionando as apostilas atualizadas, quiz para o site.
+
+Nos dias 1, 2 e 3 de outubro, corrigir os erros que ocorreram no site de cursos, e mudando as cores e conteúdos que foram pedidos para alterar, assim, finalizando o site de cursos que foi concluído.

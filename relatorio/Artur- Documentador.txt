@@ -45,3 +45,10 @@ Erro 3: tem uma borda branca fina na lateral do site.
 Sugestão: no final, é bom colocar e-mail profissional, telefone/WhatsApp para atendimento ao cliente, e Instagram.
 
 Leonardo continuou a construção do site do curso, adicionando os códigos restantes de HTML e CSS por meio do VS Code. Também realizou a inserção de imagens e descrições, além da implementação de um botão responsável por redirecionar o usuário para o próximo site, que ainda está em desenvolvimento.
+---------------------------------------------------REDESIGN--------------------------------------------------------------------------------------------
+
+Durante o desenvolvimento do projeto, minha principal função foi documentar o progresso das atividades realizadas pelo grupo. Acompanhei as etapas de desenvolvimento, registrando as atualizações, mudanças, dificuldades encontradas e melhorias realizadas no projeto.
+
+Também organizei essas informações de forma cronológica para facilitar o acompanhamento da evolução do trabalho. Dessa maneira, foi possível registrar o que foi realizado em cada etapa e manter um histórico do desenvolvimento do projeto.
+
+Minha contribuição foi importante para registrar e organizar o progresso do grupo, permitindo acompanhar a evolução do projeto desde as primeiras etapas até as fases mais avançadas.

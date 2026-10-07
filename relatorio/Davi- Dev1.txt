@@ -21,3 +21,21 @@ Dia 13/08/2026- Hoje concertei o nome "confirmar" do botão no formulário de co
 Dia 18/08/2026 após me recuperer um pouco de estar doente adicionei as animações usando javascrip que comforme você desce a pagina o java script muda a classe do "reveal" para ativo que tem a função de aumentar a opacidade dos itens fazendo eles aparecerem e subirem para seu local de origem na pagina.
 
 Dia 21/08/2026- adicione um botão com ícone de olho que com o javascript quando você clica no botão ele altera o input do local onde você coloca senha para "text" assim permitindo você ver sua senha e depois quando você clicar no botão novamente  input da senha voltara a ser "password" deixando a senha cheia de pontinhos novamente
+
+--------------------------------------------------------REDESIGN------------------------------------------------------------------------------
+Dia 19/09/2026
+Montei a base da estrutura do site
+Dia 20/09/2026
+Terminei a primeira página do site ajustando os tamanhos e fazendo a animação da capa e utilizei IA apenas para fazer duas formas paralelogramas para a animação da capa
+Dia 26/09 Fibalizei a segunda sessão do site 
+Coloquei o título tentei fazer uma linha do PDF do designer usando HTML e CSS mas o resultado não fica tão bom quanto o do PDF então falei com o designer e decidimos usar a foto da linha depois fiz os cards colocando imagem título e parágrafo mas utilizei IA para colocar a cor e me ajudar a descobri que errei a ordem de position relative e absolute que tava fazendo o título não aparecer
+Dia 27/09/2026
+Finalizei a sessão 4 sem problemas e o footer do site agora só falta ajustar as cores degrade tamanhos, animações, fazer os links funcionarem pedir os conteúdos ao redator de conteúdo e fazer a responsividade mobile
+Dia 28-29/09/2026 ajustei tamnho da seta nome invenções ajustei o fundo dos cards das invenções ajustei fundo do footer ajustei cores de um linhas ajustei tamanhos de caixa das <div> ajustei a animação da capa no início e coloquei todos os textos nas cores certas conforme o Design
+Dia 30/09/2026- Comecei a fazer a estilização mobile e até agora sem problemas encontrados
+Dia 2 e Dia 3 Trabalhei constantemente no site sem parar e tive bastante dificuldades muitas delas resolvi de cabeça e outras com IA como por exemplo a linha da sessão 2 no mobile que não estava se alinhando na sessão2 porque ela não está com position relative pra linha da sessão2 se encaixar na sessão, a barra de navegação tava ultrapassando o limite de 100% então pedi pra IA me ajuda e lembrei que se eu defini-se que a largura máxima fosse 100% não teria mais erro.
+
+Depois também adicionei animações textos e links que faltavam estar funcionando e discuti com o designer sobre outras coisas, redefini cores erradas ajustei a sessão4 e footer mobile com alinhamento de 2 em 2 mas mantendo a div que divide em dupla sem função na visualização PC ajustei também a animação da capa e ajudei  o segundo desenvlvedor com design e parte mobile depois utilizei IA para descobrir outro bug que era o padding do PC que esqueci de tirar no mobile
+Nos dias 4 em diante treinei as falas com o projetor e meu notebook na sala ajudei com o slide corrigi alguns bugs do segundo desenvolvedor e corrigi alguns bugs meus e é isso a apresentação foi um sucesso so errei um segundo de fala e agora agradeço bastante pelo antigo professor Alan ter me ensinado um pouco de Javascript no passado como mudar a cor dos items usando um botão.
+
+-------------------------------------------------SEM IA NO MEU CODIGO TUDO A MÃO--------------------------------------------------------------------------
